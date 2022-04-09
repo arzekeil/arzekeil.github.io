@@ -36,17 +36,8 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
-                            aria-haspopup="true" aria-expanded="false">Links</a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="https://www.linkedin.com/in/arzekeil"
-                                target="_self">LinkedIn</a>
-                            <a class="dropdown-item" href="https://github.com/arzekeil" target="_self">GitHub</a>
-                            <a class="dropdown-item" href="mailto:arzekeil.abel@gmail.com" target="_self">Email</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="assets/Arzekeil-Abel De Leon Resume.pdf"
-                                target="_blank">Resume</a>
+                    <li class="nav-item">
+                            <a class="nav-link" href="assets/Arzekeil_De_Leon_Resume.pdf" target="_blank">Resume</a>
                         </div>
                     </li>
                 </ul>
@@ -60,17 +51,17 @@
         <img class="d-block mx-auto mb-4" src="assets/bell-regular.svg" alt="" width="72" height="57">
         <h1 class="display-5 fw-bold">Hi I'm Arzekeil-Abel 👋</h1>
         <div class="col-lg-6 mx-auto">
-            <p class="lead mb-4">I'm a second year Computer Science student who is
+            <p class="lead mb-4">I'm a third year Computer Science student who is
                 currently attending Wilfrid Laurier University. <br>
-                I'm seeking an internship for the summer 2022 season in
-                the Software Development field.<br>
-                Feel free to connect or message me on LinkedIn.<br>
+                I'm seeking an internship for the summer 2023 season in
+                the <strong>software development</strong> or <strong>cloud infrastructure</strong> field.<br>
+                Feel free to connect or message me on LinkedIn or via email.<br>
                 Have a great day!</p>
             <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-                <a href="https://www.linkedin.com/in/arzekeil" target="_self" name="linkedin-button-one"><button type="button"
-                        class="btn btn-outline-primary btn-lg px-4 gap-3">LinkedIn</button></a>
+                <a href="https://www.linkedin.com/in/arzekeil" target="_self" name="linkedin-button-one"><button
+                        type="button" class="btn btn-outline-primary btn-lg px-4 gap-3">LinkedIn</button></a>
                 <a href="https://github.com/arzekeil" target="_self" name="github-button-one"><button type="button"
-                    class="btn btn-outline-dark btn-lg px-4 gap-3">GitHub</button></a>
+                        class="btn btn-outline-dark btn-lg px-4 gap-3">GitHub</button></a>
             </div>
         </div>
     </div>
@@ -80,31 +71,47 @@
     <div class="container">
 
         <!-- skills start -->
-        <div class="px-4 py-5" id="skills">
-            <h2 class="pb-2 border-bottom">Skills</h2>
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-3 py-5">
-                <div class="col d-flex align-items-start">
-                    <div>
-                        <h4 class="fw-bold mb-0">Languages</h4>
-                        <p>Python, JavaScript [ES6], SQL, VBA, HTML5, CSS3.</p>
+        <div class="accordion px-4 py-5" id="skills">
+            <h2 class="border-bottom pb-2 mb-5">Skills</h2>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                        Languages
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                    data-bs-parent="#skills">
+                    <div class="accordion-body">
+                        Python, Java, JavaScript, Bash, HTML, CSS, SQL.
                     </div>
                 </div>
-                <div class="col d-flex align-items-start">
-                    <div>
-                        <h4 class="fw-bold mb-0">Database</h4>
-                        <p>SQLite.</p>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Frameworks & Libraries
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                    data-bs-parent="#skills">
+                    <div class="accordion-body">
+                        React.js, Express.js, JUnit, PyTest.
                     </div>
                 </div>
-                <div class="col d-flex align-items-start">
-                    <div>
-                        <h4 class="fw-bold mb-0">Frameworks & Libraries</h4>
-                        <p>Express.js, Bootstrap, PyTest.</p>
-                    </div>
-                </div>
-                <div class="col d-flex align-items-start">
-                    <div>
-                        <h4 class="fw-bold mb-0">Tools & Technologies</h4>
-                        <p>Git, AWS, Docker, Powershell, Bash, Node.js, GitHub Actions, WSL2.</p>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Technologies
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                    data-bs-parent="#skills">
+                    <div class="accordion-body">
+                        Git, Docker, Heroku, Linux, MongoDB, MS SQL Server, SQLite, Selenium, Node.js.
                     </div>
                 </div>
             </div>
@@ -179,7 +186,8 @@
                 </div>
                 <div class="col-lg-6">
                     <h1 class="display-5 fw-bold lh-1 mb-3">If you like what you see contact me!</h1>
-                    <p class="lead">You can contact me through LinkedIn or thorugh email by using the buttons down below.</p>
+                    <p class="lead">You can contact me through LinkedIn or thorugh email by using the buttons down
+                        below.</p>
                     <div class="d-grid gap-2 d-md-flex justify-content-md-start">
                         <a href="https://www.linkedin.com/in/arzekeil" target="_blank"><button type="button"
                                 class="btn btn-outline-primary btn-lg px-4 me-md-2">LinkedIn</button></a>
