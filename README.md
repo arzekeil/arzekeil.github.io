@@ -1,2 +1,2 @@
 # My personal portfolio
-[View My Website](https://arzekeil.github.io)
+Visit my website via this link: [http://www.arzekeil.dev/](http://www.arzekeil.dev/)
