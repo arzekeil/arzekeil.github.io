@@ -1,0 +1,13 @@
+/*
+    palette: https://colorhunt.co/palette/293462d61c4efeb139fff80a
+*/
+h1, h2, p, li, a, i {
+    color: #fff;
+    transition: 0.5s;
+}
+
+i:hover {
+    color: #D61C4E;
+    transition: 0.5s;
+    transform: scale(1.5);
+}
