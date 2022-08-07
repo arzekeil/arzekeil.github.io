@@ -1,13 +1,71 @@
 /*
     palette: https://colorhunt.co/palette/293462d61c4efeb139fff80a
 */
-h1, h2, p, li, a, i {
+h1, h2, p, li, a, i{
+    color: #fff;
+}
+.icons {
     color: #fff;
     transition: 0.5s;
 }
 
-i:hover {
-    color: #D61C4E;
+.icons:hover {
     transition: 0.5s;
     transform: scale(1.5);
+}
+
+.hero:hover {
+    color: #D61C4E;
+}
+
+.footer:hover {
+    color:#FEB139;
+}
+.btn-primary {
+    color: #FFF;
+    background-color: #D61C4E;
+    border-color: #D61C4E;
+    transition: 0.5s;
+}
+
+.btn-primary:hover {
+    background-color: #b11c43;
+    border-color: #b11c43;
+}
+.btn-primary:focus {
+    background-color: #b11c43;
+    border-color: #b11c43;
+}
+.btn-primary:active {
+    background-color: #b11c43;
+    border-color: #b11c43;
+}
+
+@media (min-width: 768px) {
+    .container-small {
+        width: 300px;
+    }
+    .container-large {
+        width: 970px;
+    } 
+} 
+@media (min-width: 992px) {
+    .container-small {
+        width: 500px;
+    }
+    .container-large {
+        width: 1170px;
+    } 
+} 
+@media (min-width: 1200px) {
+    .container-small {
+        width: 700px;
+    }
+    .container-large {
+        width: 1500px;
+    } 
+}
+
+.container-small, .container-large {
+    max-width: 100%;
 }
