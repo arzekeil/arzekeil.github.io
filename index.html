@@ -2,219 +2,191 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles\bootstrap.min.css" />
-    <title>Arzekeil-Abel</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="./static/css/main.css">
+    <title>Arzekeil</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="./static/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./static/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./static/images/favicon-16x16.png">
+    <link rel="manifest" href="./site.webmanifest">
 </head>
 
-<body>
-    <!-- nav bar start -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<body style="background-color: #293462;">
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #D61C4E;">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Arzekeil-Abel</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01"
-                aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-brand" href="#home">
+                <img src="./static/images/favicon-32x32.png" alt="logo" width="30" height="32"
+                    class="d-inline-block align-top">
+                Arzekeil
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-
-            <div class="collapse navbar-collapse" id="navbarColor01">
-                <ul class="navbar-nav me-auto">
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">
-                            Home
-                            <span class="visually-hidden">(current)</span>
-                        </a>
+                        <a class="nav-link" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#skills">Skills</a>
+                        <a class="nav-link" href="#education">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#work-exp">Work Experience</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#projects">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                            <a class="nav-link" href="assets/Arzekeil_De_Leon_Resume.pdf" target="_blank">Resume</a>
-                        </div>
+                        <a class="nav-link" href="#skills">Skills</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-    <!-- nav bar ending -->
-
-    <!-- hero start -->
-    <div class="px-4 py-5 my-5 text-center" id="home">
-        <img class="d-block mx-auto mb-4" src="assets/bell-regular.svg" alt="" width="72" height="57">
-        <h1 class="display-5 fw-bold">Hi I'm Arzekeil-Abel 👋</h1>
-        <div class="col-lg-6 mx-auto">
-            <p class="lead mb-4">I'm a third year Computer Science student who is
-                currently attending Wilfrid Laurier University. <br>
-                I'm seeking an internship for the summer 2023 season in
-                the <strong>software development</strong> or <strong>cloud infrastructure</strong> field.<br>
-                Feel free to connect or message me on LinkedIn or via email.<br>
-                Have a great day!</p>
-            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-                <a href="https://www.linkedin.com/in/arzekeil" target="_self" name="linkedin-button-one"><button
-                        type="button" class="btn btn-outline-primary btn-lg px-4 gap-3">LinkedIn</button></a>
-                <a href="https://github.com/arzekeil" target="_self" name="github-button-one"><button type="button"
-                        class="btn btn-outline-dark btn-lg px-4 gap-3">GitHub</button></a>
-            </div>
-        </div>
-    </div>
-    <!-- hero ending -->
-
-    <!-- content container start -->
     <div class="container">
-
-        <!-- skills start -->
-        <div class="accordion px-4 py-5" id="skills">
-            <h2 class="border-bottom pb-2 mb-5">Skills</h2>
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="headingOne">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                        Languages
-                    </button>
-                </h2>
-                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
-                    data-bs-parent="#skills">
-                    <div class="accordion-body">
-                        Python, Java, JavaScript, Bash, HTML, CSS, SQL.
-                    </div>
-                </div>
+        <section id="home" class="py-5 my-5 px-4 py-5 my-5 text-center">
+            <h1 class="display-1">Hi! I'm Arzekeil 🐱‍💻</h1>
+            <p class="lead">
+                Future Software Engineer - Cloud & Automation Enthusiast!
+            </p>
+            <div>
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <a href="https://github.com/arzekeil" target="_blank" rel="noopener noreferrer"><i
+                                class="fa-brands fa-github fa-2xl"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://www.linkedin.com/in/arzekeil" target="_blank" rel="noopener noreferrer"><i
+                                class="fa-brands fa-linkedin fa-2xl"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://dev.to/arzekeil" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-square-rss fa-2xl"></i></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://docs.google.com/document/d/109VPD25wHxo2QOTgcIvMUqJ3vb6nuNZiUprHDeiMlDo/edit?usp=sharing" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-file fa-2xl"></i></a>
+                    </li>
+                </ul>
             </div>
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="headingTwo">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        Frameworks & Libraries
-                    </button>
-                </h2>
-                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                    data-bs-parent="#skills">
-                    <div class="accordion-body">
-                        React.js, Express.js, JUnit, PyTest.
-                    </div>
-                </div>
+        </section>
+        <section id="education" class="py-5 my-5">
+            <h1>Education</h1>
+            <h1 class="display-6">(Hons.) Bachelor of Science in Computer Science, Wilfrid Laurier University</h1>
+            <p class="lead">
+                September 2020 – Expected Graduation on April 2024
+            </p>
+        </section>
+        <section id="work-exp" class="py-5 my-5">
+            <h1>Work Experience</h1>
+            <div class="py-2 my-2">
+                <h1 class="display-6">Site Reliability Engineering Intern, Kinaxis</h1>
+                <p class="lead">
+                    September 2022 – December 2022
+                </p>
+                <ul>
+                    <li>Kubernetes</li>
+                </ul>
             </div>
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="headingThree">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        Technologies
-                    </button>
-                </h2>
-                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                    data-bs-parent="#skills">
-                    <div class="accordion-body">
-                        Git, Docker, Heroku, Linux, MongoDB, MS SQL Server, SQLite, Selenium, Node.js.
-                    </div>
-                </div>
+            <div class="py-2 my-2">
+                <h1 class="display-6">Quality Engineering Intern, Toronto-Dominion Bank</h1>
+                <p class="lead">
+                    May 2022 – August 2022
+                </p>
+                <ul>
+                    <li>React.js</li>
+                    <li>Node.js</li>
+                    <li>Flask</li>
+                    <li>MySQL</li>
+                    <li>Jenkins</li>
+                </ul>
             </div>
-        </div>
-        <!-- skills ending -->
-
-        <!-- projects starting -->
-
-        <div class="album px-4 py-5" id="projects">
-            <h2 class="pb-2 border-bottom">Project</h2>
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 py-5">
-                <div class="col">
-                    <div class="card shadow-sm">
-                        <div class="card-body">
-                            <h4 class="card-title">Caesar Cipher</h4>
-                            <p class="card-text">Used the Caesar Cipher Algorithm to encrypt and decrypt messages.</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <a href="https://arzekeil.github.io/Web_CaesarCipher/" target="_blank"><button
-                                            type="button" class="btn btn-sm btn-outline-success">View</button></a>
-                                    <a href="https://github.com/arzekeil/Web_CaesarCipher" target="_blank"><button
-                                            type="button" class="btn btn-sm btn-outline-info">Code</button></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card shadow-sm">
-                        <div class="card-body">
-                            <h4 class="card-title">Advice Giver</h4>
-                            <p class="card-text">Used the Fetch API to make a request to the Advice Slip API and return
-                                a randomly generated piece of advice.</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <a href="https://arzekeil.github.io/Web_AdviceGiver/" target="_blank"><button
-                                            type="button" class="btn btn-sm btn-outline-success">View</button></a>
-                                    <a href="https://github.com/arzekeil/Web_AdviceGiver/" target="_blank"><button
-                                            type="button" class="btn btn-sm btn-outline-info">Code</button></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card shadow-sm">
-                        <div class="card-body">
-                            <h4 class="card-title">Student Information System</h4>
-                            <p class="card-text">Used: Nodejs, Express, EJS, SQLite
-                                Used EJS and SQLite to load and upload user data.</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <a href="#" onclick="return false;"><button type="button"
-                                            class="btn btn-sm btn-outline-success disabled">View</button></a>
-                                    <a href="https://github.com/arzekeil/Web_SIS/" target="_blank"><button type="button"
-                                            class="btn btn-sm btn-outline-info">Code</button></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="py-2 my-2">
+                <h1 class="display-6">ICT Network Assistant, Wilfrid Laurier University</h1>
+                <p class="lead">
+                    October 2021 – December 2021
+                </p>
             </div>
-        </div>
-        <!-- projects ending -->
-
-        <!-- contact start -->
-        <div class="px-4 py-5" id="contact">
-            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-                <div class="col-10 col-sm-8 col-lg-6">
-                    <img src="assets/carrot.gif" class="d-block mx-lg-auto img-fluid" alt="thinking" width="700"
-                        height="500" loading="lazy">
-                </div>
-                <div class="col-lg-6">
-                    <h1 class="display-5 fw-bold lh-1 mb-3">If you like what you see contact me!</h1>
-                    <p class="lead">You can contact me through LinkedIn or thorugh email by using the buttons down
-                        below.</p>
-                    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                        <a href="https://www.linkedin.com/in/arzekeil" target="_blank"><button type="button"
-                                class="btn btn-outline-primary btn-lg px-4 me-md-2">LinkedIn</button></a>
-                        <a href="mailto:arzekeil.abel@gmail.com" target="_blank"><button type="button"
-                                class="btn btn-outline-danger btn-lg px-4">Email</button></a>
-                    </div>
-                </div>
+            <div class="py-2 my-2">
+                <h1 class="display-6">Web Developer, Wilfrid Laurier University</h1>
+                <p class="lead">
+                    October 2021 – December 2021
+                </p>
+                <ul>
+                    <li>React.js</li>
+                    <li>Figma</li>
+                </ul>
             </div>
-        </div>
-        <!-- contact ending -->
-
-        <!-- footer start -->
-        <footer class="py-3 my-4" id="footer">
-            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
-                <li class="nav-item"><a href="#skills" class="nav-link px-2 text-muted">Skills</a></li>
-                <li class="nav-item"><a href="#projects" class="nav-link px-2 text-muted">Projects</a></li>
-                <li class="nav-item"><a href="#contact" class="nav-link px-2 text-muted">Contact</a></li>
+            <div class="py-2 my-2">
+                <h1 class="display-6">Quality Engineering Intern, Knowledge First Financial</h1>
+                <p class="lead">
+                    May 2021 – August 2021
+                </p>
+                <ul>
+                    <li>Python</li>
+                </ul>
+            </div>
+        </section>
+        <section id="projects" class="py-5 my-5">
+            <h1>Projects</h1>
+        </section>
+        <section id="skills" class="py-5 my-5">
+            <h1>Skills</h1>
+            <h2 class="display-6">Languages</h2>
+            <ul>
+                <li>Python</li>
+                <li>JavaScript</li>
+                <li>PHP</li>
+                <li>Java</li>
+                <li>Bash</li>
+                <li>SQL</li>
             </ul>
-            <p class="text-center text-muted">&copy; 2021 Arzekeil-Abel</p>
-        </footer>
-        <!-- footer ending -->
-
+            <h2 class="display-6">Frameworks & Libraries</h2>
+            <ul>
+                <li>React.js</li>
+                <li>Express.js</li>
+                <li>Flask</li>
+                <li>Laravel</li>
+                <li>jQuery</li>
+            </ul>
+            <h2 class="display-6">Databases</h2>
+            <ul>
+                <li>PostgreSQL</li>
+                <li>MySQL</li>
+                <li>SQLite</li>
+                <li>MongoDB</li>
+                <li>DynamoDB</li>
+            </ul>
+            <h2 class="display-6">Technologies</h2>
+            <ul>
+                <li>Jenkins</li>
+                <li>AWS (EC2 | ECS | S3 | Lambda | API Gateway | DynamoDB | Route 53 | CloudFront)</li>
+                <li>Docker</li>
+                <li>Kubernetes</li>
+                <li>Ansible</li>
+                <li>Terraform</li>
+                <li>Linux (Ubuntu | CentOS)</li>
+                <li>Git</li>
+                <li>GitHub</li>
+                <li>BitBucket</li>
+            </ul>
+        </section>
     </div>
-    <!-- content container ending -->
-
-    <script src="javascript\bootstrap.min.js"></script>
+    <footer class="btext-center text-lg-start" style="background-color: #D61C4E;">
+        <!-- Copyright -->
+        <div class="text-light text-center p-3">
+            © 2022 Copyright:
+            <a class="text-light" href="https://www.arzekeil.dev">arzekeil.dev</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/381d185795.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
