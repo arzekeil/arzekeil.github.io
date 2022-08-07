@@ -70,6 +70,8 @@ div.container-small {
 }
 
 div.accordion div.accordion-item,
+div.accordion div.accordion-item div.accordion-header,
+div.accordion div.accordion-item div.accordion-collapse div.accordion-body,
 div.accordion div.accordion-item button.accordion-button,
 div.accordion div.accordion-item button.accordion-button:not(.collapsed) {
     color: #FFF;
