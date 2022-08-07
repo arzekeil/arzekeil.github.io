@@ -69,19 +69,19 @@ div.container-small {
     max-width: 100%;
 }
 
-div.accordion-item,
-button.accordion-button,
-button.accordion-button:not(.collapsed) {
+div.accordion div.accordion-item,
+div.accordion div.accordion-item button.accordion-button,
+div.accordion div.accordion-item button.accordion-button:not(.collapsed) {
     color: #FFF;
     border-color: #FFF;
     background-color: #D61C4E;
 }
 
-button.accordion-button:focus {
+div.accordion div.accordion-item button.accordion-button:focus {
     box-shadow: inherit;
 }
 
-button.accordion-button:not(.collapsed)::after,
-button.accordion-button::after {
+div.accordion div.accordion-item button.accordion-button:not(.collapsed)::after,
+div.accordion div.accordion-item button.accordion-button::after {
     background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>");
 }
