@@ -1,53 +1,87 @@
-h1, h2, p, li, a, i{
+h1,
+h2,
+p,
+li,
+a,
+i {
     color: #fff;
 }
+
 .icons {
     color: #fff;
     transition: 0.5s;
 }
+
 .icons:hover {
     transition: 0.5s;
     transform: scale(1.5);
 }
+
 .hero:hover {
     color: #D61C4E;
 }
+
 .footer:hover {
-    color:#FEB139;
+    color: #FEB139;
 }
+
 a.btn-primary {
     color: #FFF;
     background-color: #D61C4E;
     border-color: #D61C4E;
     transition: 0.5s;
 }
+
 a.btn-primary:hover {
     background-color: #b11c43;
     border-color: #b11c43;
 }
+
 a.btn-primary:focus {
     background-color: #b11c43;
     border-color: #b11c43;
 }
+
 a.btn-primary:active {
     background-color: #b11c43;
     border-color: #b11c43;
 }
+
 @media (min-width: 768px) {
     div.container-small {
         width: 300px;
     }
-} 
+}
+
 @media (min-width: 992px) {
     div.container-small {
         width: 500px;
     }
-} 
+}
+
 @media (min-width: 1200px) {
     div.container-small {
         width: 700px;
     }
 }
+
 div.container-small {
     max-width: 100%;
+}
+
+div.accordion-item,
+button.accordion-button,
+button.accordion-button:not(.collapsed) {
+    color: #FFF;
+    border-color: #FFF;
+    background-color: #D61C4E;
+}
+
+button.accordion-button:focus {
+    box-shadow: inherit;
+}
+
+button.accordion-button:not(.collapsed)::after,
+button.accordion-button::after {
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>");
 }
