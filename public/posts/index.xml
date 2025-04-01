@@ -1,15 +1,15 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>All Posts - Arzekeil De Leon | Portfolio</title>
-        <link>arzekeil.github.io/posts/</link>
+        <link>//localhost:1313/posts/</link>
         <description>All Posts | Arzekeil De Leon | Portfolio</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>arzekeil.abel@gmail.com (Arzekeil-Abel De Leon)</managingEditor>
-            <webMaster>arzekeil.abel@gmail.com (Arzekeil-Abel De Leon)</webMaster><lastBuildDate>Tue, 01 Apr 2025 01:04:57 -0400</lastBuildDate><atom:link href="arzekeil.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>arzekeil.abel@gmail.com (Arzekeil-Abel De Leon)</webMaster><lastBuildDate>Tue, 01 Apr 2025 01:04:57 -0400</lastBuildDate><atom:link href="//localhost:1313/posts/" rel="self" type="application/rss+xml" /><item>
     <title>Hello, World!</title>
-    <link>arzekeil.github.io/hello_world/</link>
+    <link>//localhost:1313/hello_world/</link>
     <pubDate>Tue, 01 Apr 2025 01:04:57 -0400</pubDate>
     <author>Arzekeil-Abel De Leon</author>
-    <guid>arzekeil.github.io/hello_world/</guid>
+    <guid>//localhost:1313/hello_world/</guid>
     <description><![CDATA[]]></description>
 </item>
 </channel>

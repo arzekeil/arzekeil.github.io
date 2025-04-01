@@ -406,9 +406,9 @@ GitHub = "arzekeil"
 
 Linkedin = "arzekeil"
 
-X = "" 
+X = ""
 
-Twitter = "" 
+Twitter = ""
 
 Instagram = "arzekeil"
 
@@ -1236,3 +1236,7 @@ page = ["HTML", "MarkDown"]
 section = ["HTML", "RSS"]
 
 taxonomy = ["HTML", "RSS"]
+
+[caches]
+[caches.images]
+dir = ':cacheDir/images'
