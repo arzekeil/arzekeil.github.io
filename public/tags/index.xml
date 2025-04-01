@@ -1,0 +1,8 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Tags - Tag - Arzekeil De Leon | Portfolio</title>
+        <link>http://example.org/tags/</link>
+        <description>Tags - Tag - Arzekeil De Leon | Portfolio</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>arzekeil.abel@gmail.com (Arzekeil-Abel De Leon)</managingEditor>
+            <webMaster>arzekeil.abel@gmail.com (Arzekeil-Abel De Leon)</webMaster><atom:link href="http://example.org/tags/" rel="self" type="application/rss+xml" /></channel>
+</rss>

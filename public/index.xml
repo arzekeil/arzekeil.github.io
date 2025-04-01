@@ -1,0 +1,18 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Arzekeil De Leon | Portfolio</title>
+        <link>http://example.org/</link>
+        <description>Arzekeil&#39;s Portfolio Website</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>arzekeil.abel@gmail.com (Arzekeil-Abel De Leon)</managingEditor>
+            <webMaster>arzekeil.abel@gmail.com (Arzekeil-Abel De Leon)</webMaster><lastBuildDate>Tue, 01 Apr 2025 01:04:57 -0400</lastBuildDate>
+            <atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+    <title>Hello, World!</title>
+    <link>http://example.org/hello_world/</link>
+    <pubDate>Tue, 01 Apr 2025 01:04:57 -0400</pubDate>
+    <author>Arzekeil-Abel De Leon</author>
+    <guid>http://example.org/hello_world/</guid>
+    <description><![CDATA[]]></description>
+</item>
+</channel>
+</rss>
