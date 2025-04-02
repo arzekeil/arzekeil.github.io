@@ -697,9 +697,9 @@ fullscreen = true
 
 [params.page.share]
 
-enable = true
+enable = false
 
-X = true # 
+X = false # 
 
 Twitter = false # 
 
@@ -1240,3 +1240,8 @@ taxonomy = ["HTML", "RSS"]
 [caches]
 [caches.images]
 dir = ':cacheDir/images'
+
+
+[taxonomies]
+tag = "tags"
+category = "categories"

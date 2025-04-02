@@ -5,12 +5,14 @@
         <description>All Posts | Arzekeil De Leon | Portfolio</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>arzekeil.abel@gmail.com (Arzekeil-Abel De Leon)</managingEditor>
             <webMaster>arzekeil.abel@gmail.com (Arzekeil-Abel De Leon)</webMaster><lastBuildDate>Tue, 01 Apr 2025 01:04:57 -0400</lastBuildDate><atom:link href="//localhost:1313/posts/" rel="self" type="application/rss+xml" /><item>
-    <title>Hello, World!</title>
+    <title>Diving into the Cloud: My Story So Far</title>
     <link>//localhost:1313/hello_world/</link>
     <pubDate>Tue, 01 Apr 2025 01:04:57 -0400</pubDate>
     <author>Arzekeil-Abel De Leon</author>
     <guid>//localhost:1313/hello_world/</guid>
-    <description><![CDATA[]]></description>
+    <description><![CDATA[<p>Hey everyone! I&rsquo;m Arzekeil De Leon, and I&rsquo;m on my way to becoming a Cloud and DevOps Engineer. I get really excited about building things, especially when it involves making IT infrastructure more efficient and reliable. My journey through Computer Science at Wilfrid Laurier University and my work experiences have shaped my path, and I&rsquo;m keen to share a bit about it.</p>
+<h2 id="where-ive-been">Where I&rsquo;ve Been</h2>
+<p>University gave me the foundation, but it&rsquo;s been the hands-on stuff that&rsquo;s really made it click. I&rsquo;ve been lucky to explore a few different areas in IT, and each has taught me something valuable:</p>]]></description>
 </item>
 </channel>
 </rss>
