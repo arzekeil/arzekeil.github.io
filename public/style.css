@@ -31,14 +31,6 @@ body {
     line-height: 1.7;
 }
 
-a {
-    color: var(--primary-color-light);
-}
-
-a:hover {
-    color: var(--primary-color-hover);
-}
-
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -143,6 +135,14 @@ a:hover {
 
 .card p {
     font-size: var(--p-font-size);
+}
+
+.card a {
+    color: var(--primary-color-light);
+}
+
+.card a:hover {
+    color: var(--primary-color-hover);
 }
 
 @media (max-width: 768px) {
