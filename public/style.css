@@ -1,5 +1,6 @@
 :root {
     --primary-color: #0d1b2a;
+    --primary-color-light: #4371a7;
     --primary-color-hover: #1b263b;
     --primary-color-active: #415a77;
     --text-color: #0d1b2a;
@@ -28,6 +29,14 @@ body {
     background-color: var(--background-color);
     color: var(--text-color);
     line-height: 1.7;
+}
+
+a {
+    color: var(--primary-color-light);
+}
+
+a:hover {
+    color: var(--primary-color-hover);
 }
 
 .container {
